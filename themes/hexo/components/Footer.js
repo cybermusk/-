@@ -62,21 +62,21 @@ const Footer = ({ title }) => {
         {/* Column 1 */}
         <div className='flex flex-col text-left space-y-0.5'>
           <h3 className='font-bold mb-2'>OUR COMPANY</h3>
-          <a href='/company/about-us' className='hover:underline'>About Us</a>
-          <a href='/support/feedbacks' className='hover:underline'>Contact Us</a>
-          <a href='/support/faq' className='hover:underline'>Help and FAQ</a>
+          <a href='/company/about-us' className='hover:underline' rel='nofollow'>About Us</a>
+          <a href='/support/feedbacks' className='hover:underline' rel='nofollow'>Contact Us</a>
+          <a href='/support/faq' className='hover:underline' rel='nofollow'>Help and FAQ</a>
           <a href='https://www.sugardaddymeet.com/affiliate/?tid=af100028782' className='hover:underline' rel='nofollow'>Become an Affiliate</a>
         </div>
         
         {/* Column 2 */}
         <div className='flex flex-col text-left space-y-0.5'>
           <h3 className='font-bold mb-2'>SAFETY</h3>
-          <a href='/safety/privacy-policy' className='hover:underline'>Privacy Policy</a>
-          <a href='/safety/service-agreement' className='hover:underline'>Service Agreement</a>
-          <a href='/safety/notice-of-collection' className='hover:underline'>Notice of Collection</a>
-          <a href='/safety/community-guidelines' className='hover:underline'>Community Guidelines</a>
-          <a href='/safety/fighting-human-trafficking' className='hover:underline'>Stop Sex & Human Trafficking</a>
-          <a href='/safety/no-sell-or-share' className='hover:underline'>Right to Opt-Out</a>
+          <a href='/safety/privacy-policy' className='hover:underline' rel='nofollow'>Privacy Policy</a>
+          <a href='/safety/service-agreement' className='hover:underline' rel='nofollow'>Service Agreement</a>
+          <a href='/safety/notice-of-collection' className='hover:underline' rel='nofollow'>Notice of Collection</a>
+          <a href='/safety/community-guidelines' className='hover:underline' rel='nofollow'>Community Guidelines</a>
+          <a href='/safety/fighting-human-trafficking' className='hover:underline' rel='nofollow'>Stop Sex & Human Trafficking</a>
+          <a href='/safety/no-sell-or-share' className='hover:underline' rel='nofollow'>Right to Opt-Out</a>
         </div>
         
         {/* Column 3 */}
